@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,19 +51,44 @@
           >
           <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
         </div>
-        <div>
-          <a href="">ints</a>
-          <a href="">wha</a>
-          <a href="">lin</a>
+        <div class="mt-12 flex gap-6">
+          <a
+            href="#"
+            class="social-icon text-gray-400 hover:text-[#f472b6] transition-colors"
+          >
+            <i class="fab fa-github text-2xl"></i>
+          </a>
+          <a
+            href="#"
+            class="social-icon text-gray-400 hover:text-[#f472b6] transition-colors"
+          >
+            <i class="fab fa-linkedin-in text-2xl"></i>
+          </a>
+          <a
+            href="#"
+            class="social-icon text-gray-400 hover:text-[#f472b6] transition-colors"
+          >
+            <i class="fab fa-twitter text-2xl"></i>
+          </a>
+          <a
+            href="#"
+            class="social-icon text-gray-400 hover:text-[#f472b6] transition-colors"
+          >
+            <i class="fab fa-instagram text-2xl"></i>
+          </a>
+          <a
+            href="#"
+            class="social-icon text-gray-400 hover:text-[#f472b6] transition-colors"
+          >
+            <i class="fab fa-gitlab text-2xl"></i>
+          </a>
         </div>
       </div>
     </nav>
     <main class="px-4 md:px-18 py-10 container mx-auto md:max-w-[80%]">
       <!-- Hero Section -->
-      <section
-        class="min-h-screen grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-40 my-auto items-center"
-      >
-        <div class="w-full xl:w-[50em]">
+      <section class="min-h-screen flex items-center justify-center">
+        <div>
           <p class="text-sm uppercase tracking-widest text-gray-500 mb-4">
             Hi , I'm a Bazubagira
           </p>
@@ -69,20 +98,16 @@
             <!-- UI/UX Designer & Full Stack Developer -->
             <span id="typed-text"></span>
           </h1>
-          <p class="text-lg text-gray-600 pt-3">
+          <p class="text-lg text-gray-600 pt-3 md:mb-10">
             Software Engineer dedicated to building functional, scalable, and
             visually refined web experiences. I combine a results-driven mindset
             with deep expertise across the modern web stack from interactive
             frontends in React to robust backends using Django and Node.js to
             solve real-world problems through code.
           </p>
-          <div class="my-10">
-            <a
-              href="./assets/docs/BazubagiraResume .pdf"
-              download="Bazubagira_cv"
-              class="btn-primary"
-              >Download Resume</a
-            >
+          <div class="my-10 flex space-x-6 flex-wrap">
+            <a href="#contact" class="btn-primary">Get In Touch</a>
+            <a href="#projects" class="btn-secondary">View Projects ↗</a>
           </div>
           <div class="mt-10 flex flex-wrap items-center gap-8">
             <div class="flex flex-col">
@@ -106,23 +131,6 @@
             </div>
           </div>
         </div>
-        <div
-          class="w-full xl:w-[40em] relative flex justify-center items-center"
-        >
-          <span
-            class="absolute top-10 right-10 text-pink-300 opacity-50 rotate-12 text-2xl"
-            >~</span
-          >
-          <span
-            class="absolute bottom-20 left-5 text-purple-300 opacity-50 -rotate-45 text-2xl"
-            >〰</span
-          >
-          <img
-            src="./assets/images/sanyimg.png"
-            alt="Bazubagira"
-            class="relative -z-10 object-contain drop-shadow-2xl"
-          />
-        </div>
       </section>
 
       <!-- About Section -->
@@ -133,7 +141,6 @@
           About Me
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2">
-          <div></div>
           <div class="text-gray-400 mb-6 text-base">
             <p class="mb-6">
               Hello, I'm Bazubagira Bernardine , a passionate UI/UX designer and
@@ -148,10 +155,82 @@
               Node.js. My design skills allow me to bridge the gap between user
               experience and technical implementation.
             </p>
-            <div class="my-10 flex space-x-4 flex-wrap">
-              <a href="#contact" class="btn-primary">Get In Touch</a>
-              <a href="#projects" class="btn-secondary">View Projects ↗</a>
+            <div class="my-10">
+              <a
+                href="./assets/docs/BazubagiraResume .pdf"
+                download="Bazubagira_cv"
+                class="btn-primary"
+                >Download Resume</a
+              >
             </div>
+            <div class="my-10 grid grid-cols-1 gap-4 md:grid-cols-4">
+              <!-- Floating Tech Icons -->
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="rounded-md text-4xl p-10 flex items-center justify-center hover:rotate-12 transition-transform duration-300 text-white"
+              >
+                <div>
+                  <i class="fa-brands fa-figma text-white"></i>
+                </div>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-node"></i>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <div
+                style="background: rgba(229, 231, 235, 0.1)"
+                class="p-10 rounded-md text-5xl flex items-center justify-center hover:rotate-12 transition-transform duration-300"
+              >
+                <i class="fa-brands fa-tailwind-css"></i>
+              </div>
+            </div>
+          </div>
+          <div class="relative max-w-3xl mx-auto">
+            <span
+              class="absolute top-10 right-10 text-pink-300 opacity-50 rotate-12 text-2xl"
+              >~</span
+            >
+            <span
+              class="absolute bottom-20 right-5 text-purple-300 opacity-50 -rotate-45 text-2xl"
+              >〰</span
+            >
+            <img
+              src="./assets/images/sanyimg.png"
+              alt="Bazubagira"
+              class="relative -z-10 object-contain drop-shadow-2xl"
+            />
           </div>
         </div>
       </section>
@@ -222,16 +301,24 @@
             class="group rounded-xl overflow-hidden bg-brand-accent hover:shadow-xl transition p-6 grid md:grid-cols-2 gap-4"
           >
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">Awesome App Name</h3>
-              <p class="text-gray-400 mb-4">
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
+              <h3 class="text-2xl font-medium uppercase mb-6">
+                Home care alliance - Africa
+              </h3>
+              <p class="text-gray-400 my-10 text-lg">
+                Homecare Alliance Africa (HOCA-A) is a pan African,
+                not-for-profit alliance dedicated to developing systems,
+                standards, and regulatory frameworks for the home-based and
+                geriatric care industry across the African Continent.
               </p>
-              <div class="flex space-x-2">
+              <a
+                href="https://hoca-africa.org/about"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-secondary"
+              >
+                Learn More
+              </a>
+              <!-- <div class="flex space-x-2">
                 <span class="text-xs bg-gray-100 px-2 py-1 rounded"
                   >Tailwind</span
                 >
@@ -241,7 +328,7 @@
                 <span class="text-xs bg-gray-100 px-2 py-1 rounded"
                   >ReactJs</span
                 >
-              </div>
+              </div> -->
             </div>
             <div>
               <img
@@ -263,26 +350,27 @@
               />
             </div>
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">Awesome App Name</h3>
-              <p class="text-gray-400 mb-4">
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
+              <h3 class="text-2xl font-medium uppercase mb-4">
+                admin dashboard
+              </h3>
+              <p class="text-gray-400 my-10 text-lg">
+                This project is a comprehensive ERP system aimed at improving
+                business operations by facilitating purchase and sales
+                management, inventory control, finance operations, repairs, B2B
+                transactions, and customer management. The system is designed to
+                streamline processes, enhance efficiency, and provide valuable
+                insights for informed decision-making. It offers a user-friendly
+                interface and robust features to support the diverse needs of
+                businesses, ultimately contributing to their growth and success.
               </p>
-              <div class="flex space-x-2">
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >Tailwind</span
-                >
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >JavaScript</span
-                >
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >ReactJs</span
-                >
-              </div>
+              <a
+                href="https://bw.force.samphone.co/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-secondary"
+              >
+                Learn More
+              </a>
             </div>
           </div>
           <!-- Project Card 3 -->
@@ -290,26 +378,24 @@
             class="group rounded-xl overflow-hidden bg-brand-accent hover:shadow-xl transition p-6 grid md:grid-cols-2 gap-4"
           >
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">Awesome App Name</h3>
-              <p class="text-gray-400 mb-4">
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
+              <h3 class="text-2xl font-medium uppercase mb-4">
+                Point of Sale (POS) portal
+              </h3>
+              <p class="text-gray-400 my-10 text-lg">
+                A modern Point of Sale (POS) portal serves as a centralized
+                digital command center that unifies front-end transactions with
+                back-end business operations. By integrating diverse functions
+                into a single platform, it streamlines workflows, reduces manual
+                errors, and provides real-time data for informed decision-making
               </p>
-              <div class="flex space-x-2">
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >Tailwind</span
-                >
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >JavaScript</span
-                >
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >ReactJs</span
-                >
-              </div>
+              <a
+                href="https://bw.forcepos.samphone.co/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-secondary"
+              >
+                Learn More
+              </a>
             </div>
             <div>
               <img
@@ -331,26 +417,24 @@
               />
             </div>
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">Awesome App Name</h3>
-              <p class="text-gray-400 mb-4">
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
-                A brief description of what you built and the problem it solved.
+              <h3 class="text-2xl font-medium mb-6 uppercase">
+                last mile initiative
+              </h3>
+              <p class="text-gray-400 my-10 text-lg">
+                LMI is a dedicated team committed to transforming lives in
+                Rwandan communities. By focusing on mindset transformation ,
+                skills development, and expanding access to opportunities, we
+                empower youth and women to build resilient and sustainable
+                futures.
               </p>
-              <div class="flex space-x-2">
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >Tailwind</span
-                >
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >JavaScript</span
-                >
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded"
-                  >ReactJs</span
-                >
-              </div>
+              <a
+                href="https://lmi-kohl.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-secondary"
+              >
+                Learn More
+              </a>
             </div>
           </div>
         </div>
