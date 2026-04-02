@@ -11,4 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize Typed.js on the #typed-text element
   const typed = new Typed("#typed-text", options);
+
+  // get year
+  document.getElementById("year").textContent = new Date().getFullYear();
 });
