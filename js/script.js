@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const options = {
-    strings: ["UI/UX Designer - Full Stack Developer"],
+    strings: ["Full Stack Developer", "UI/UX Designer"],
     typeSpeed: 60,
     backSpeed: 30,
     startDelay: 500,
